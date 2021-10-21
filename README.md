@@ -39,30 +39,16 @@ python3 cipherMa1in.py
 ```
 **Key1** is required for Additive Cipher
 
->$`Encryption: C = (P + Key1)\%26`$
->$`Decryption: P = (C - Key1)\%26`$
 
 ![](images/additive.png)
 
 **Key1** and **Key2** are required for Affine Cipher
 
->$`Encryption: C = [(P * Key1) + Key2]\%26`$
->$`Decryption: P = [(C * Key1^{-1})) + Key2]\%26`$
   
 ![](images/affine.png)
 
 **All Keys** required for 2 x 2 Hill Cipher
 
->$`Encryption: C = (P*K)\%26`$
->$`Decryption: P = (C*K^{-1})\%26`$
->where,
->```math
->K=
->\left[\begin{array}{cc} 
->Key1 & Key2\\
->Key3 & Key4
->\end{array}\right]
->```
   
 ![](images/hill.png)
 
