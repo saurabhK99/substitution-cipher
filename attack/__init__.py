@@ -1,0 +1,1 @@
+from attack.frequencyattack import LetterFrequencyAttack
